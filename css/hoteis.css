@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(105, 105, 105);
+ }
+
+ img{
+    width:100%; /* Define a Largura da imagem*/
+    height:100%; /* Define a Altura da imagem*/
+}
+
+.hotel1{
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
+
+.hotel2{
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
+
+.hotel3{
+    position: relative;
+    width: 20%;
+    height: 20%;
+}

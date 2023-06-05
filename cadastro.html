@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+    <h2>Cadastro </h2>
+
+    <form>
+            
+        <fieldset>
+
+            <legend>Cadastro</legend>
+
+            <p>
+            <label for="idnome"> Nome: </label>
+            <input type="text" id="idnome" size="50"/>
+            </p>
+
+            <p>
+            <label for="idemail"> Email: </label>
+            <input type="text" id="idemail" size="50"/>
+            </p>
+
+            <p>
+            <label for="idfone"> Telefone: </label>
+            <input type="text" id="idfone" size="15" maxlength="15"/>
+            </p>
+
+            <p>
+            <label for="idtata"> Data de Nascimento: </label>
+            <input type="date" id="iddata"/>
+            </p>
+
+            <p>
+            <label for="idgenero"> Gênero: </label>
+            <input type="radio" name="genero" value="masc" id="idmasc"/>
+            <label for="idmasc"> Masculino </label>
+
+            <input type="radio" name="genero" value="fem" id="idfem"/>
+            <label for="idfem"> Feminino </label>
+
+            <input type="radio" name="genero" value="outro" id="idoutro"/>
+            <label for="idoutro"> Outro </label>
+            </p>
+        
+        </fieldset>
+
+    </form>
+
+ 
+</body>
+</html>

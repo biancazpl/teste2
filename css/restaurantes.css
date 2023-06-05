@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(105, 105, 105);
+    font-size: 1vw;
+ }
+
+ img{
+    width:100%; /* Define a Largura da imagem*/
+    height:100%; /* Define a Altura da imagem*/
+}
+
+.rest1{
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
+
+.rest2{
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
+
+.rest3{
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
